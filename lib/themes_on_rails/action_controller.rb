@@ -38,7 +38,7 @@ module ThemesOnRails
     end
 
     def theme_view_path
-      "#{prefix_path}/#{@theme_name}/views"
+      "#{prefix_path}/#{@theme_name}/pages"
     end
 
     def prefix_path
